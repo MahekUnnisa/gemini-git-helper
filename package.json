@@ -1,0 +1,20 @@
+{
+  "name": "gemini-commiter",
+  "version": "1.0.0",
+  "description": "CLI tool to write commit messages using AI",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "gemini-git": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Mahek Unnisa",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "readline-sync": "^1.4.10"
+  }
+}
